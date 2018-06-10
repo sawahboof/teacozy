@@ -14,6 +14,7 @@ header {
   align-items: center;
   position: fixed;
   width: 100%;
+  background-color: black;
 }
 
 ul {
@@ -28,6 +29,24 @@ li {
 
 a {
   color: seashell;
+}
+
+.main {
+  padding-top: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.hero {
+  background-image: url("../Images/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 1200px;
+}
+
+.herocopy {
+  text-align: center;
 }
 
 #logo {
