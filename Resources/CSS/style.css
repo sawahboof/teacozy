@@ -12,6 +12,8 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   align-items: center;
+  position: fixed;
+  width: 100%;
 }
 
 ul {
