@@ -7,33 +7,28 @@ body {
 }
 
 header {
-  height: 69px;
-  width: 100%;
   display: flex;
-  position: fixed;
+  justify-content: space-between;
+  height: 69px;
   border-bottom: 1px solid seashell;
   align-items: center;
-  z-index: 1;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px 10px;
+}
+
+li {
+  display: inline-block;
+  margin: 0px 10px;
 }
 
 a {
   color: seashell;
 }
 
-nav {
-  display: flex;
-  justify-content: flex-end;
-}
-
-nav span {
-  display: inline-block;
-  text-decoration: underline;
-  padding: 20px 10px;
-}
-
 #logo {
   height: 50px;
-  padding-left: 10px;
-  display: flex;
-  align-items: center;
+  margin: 0px 10px;
 }
