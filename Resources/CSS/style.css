@@ -61,3 +61,30 @@ a {
   height: 50px;
   margin: 0px 10px;
 }
+
+/* Tea of the Month */
+
+.teacontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.TeaofMonth {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.teapic {
+  height: 200px;
+  width: 300px;
+}
+
+.teaitem {
+  text-align: center;
+  margin: 10px;
+}
+
+.TeaSectionHeader {
+  text-align: center;
+}
