@@ -88,3 +88,27 @@ a {
 .TeaSectionHeader {
   text-align: center;
 }
+
+.locationbackground {
+  background-image: url("../Images/img-locations-background.jpg");
+  height: 500px;
+}
+
+.locationtitle {
+  height: 100px;
+  padding-top: 50px;
+}
+
+.locations {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+}
+
+.locationitem {
+  background-color: black;
+  width: 300px;
+  opactiy: 1;
+  text-align: center;
+}
