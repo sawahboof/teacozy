@@ -112,3 +112,13 @@ a {
   opactiy: 1;
   text-align: center;
 }
+
+.contactinfo {
+  text-align: center;
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  margin-left: 20px;
+}
